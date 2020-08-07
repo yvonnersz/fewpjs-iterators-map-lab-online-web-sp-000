@@ -14,7 +14,7 @@ const tutorials = [
 
 
 const titleCased = function(tutorials) => {
-  let phrase = tutorials.map(tutorial => tutorial.split(" ").map(word => word[0].toUpperCase() + word.slice(1, word.length)).join(" ")
+  let phrase = tutorials.map(tutorial => return tutorial.split(" ").map(word => word[0].toUpperCase() + word.slice(1, word.length)).join(" ")
 )
 
 
